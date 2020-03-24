@@ -28,8 +28,8 @@ $(document).ready(function() {
   });
 
   $("button#dark-mode").click(function() {
-    $("body").removeClass();
-    $("body").addClass("dark-mode");
+    $("body").removeClass("red-background yellow-background green-background")
+    $("body").toggleClass("dark-mode");
   });
 });
 
