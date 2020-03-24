@@ -1,4 +1,4 @@
-.walrus-showing {
+#walrus-showing {
   display: none;
 }
 
@@ -9,4 +9,8 @@
 
 .clickable:hover {
   text-decoration:underline;
+}
+
+#fade-out-kittens {
+  display: none;
 }
