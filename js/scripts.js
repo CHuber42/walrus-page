@@ -26,5 +26,10 @@ $(document).ready(function() {
     $("body").removeClass();
     $("body").addClass("red-background");
   });
+
+  $("button#dark-mode").click(function() {
+    $("body").removeClass();
+    $("body").addClass("dark-mode");
+  });
 });
 
