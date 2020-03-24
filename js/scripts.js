@@ -10,8 +10,21 @@ $(document).ready(function() {
   $(".puppy.clickable").click(function() {
     $("#slide-up-puppy").slideToggle();
     $("#slide-down-puppy").slideToggle(); 
-  }); 
-
+  });
   
+  $("button#green").click(function() {
+    $("body").removeClass();
+    $("body").addClass("green-background");
+  });
+
+  $("button#yellow").click(function(){ 
+    $("body").removeClass();
+    $("body").addClass("yellow-background");
+  });
+  
+  $("button#red").click(function() {
+    $("body").removeClass();
+    $("body").addClass("red-background");
+  });
 });
 

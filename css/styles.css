@@ -18,3 +18,15 @@
 #slide-down-puppy {
   display: none;
 }
+
+.green-background {
+  background-color: green;
+}
+
+.yellow-background {
+  background-color: rgb(224, 222, 63);
+}
+
+.red-background {
+  background-color: rgb(167, 22, 22);
+}
