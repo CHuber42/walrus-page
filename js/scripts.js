@@ -7,9 +7,11 @@ $(document).ready(function() {
     $("#fade-out-kittens").fadeToggle();
     $("#fade-in-kittens").fadeToggle(); 
   });   
+  $(".puppy.clickable").click(function() {
+    $("#slide-up-puppy").slideToggle();
+    $("#slide-down-puppy").slideToggle(); 
+  }); 
+
+  
 });
 
-    $("PLACEHOLDER").fadeToggle();
-    $("PLACEHOLDER").slideDown();
-    $("PLACEHOLDER").slideUp();
-    $("PLACEHOLDER").slideToggle();
